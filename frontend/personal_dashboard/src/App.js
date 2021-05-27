@@ -5,9 +5,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import './App.css';
 
 import Welcome from "./components/Welcome";
 import Page from "./components/Page";
+
+const list = ["Home","About", "Users","Personal Side", "Professional Side"]
 
 export default function App() {
   return (
@@ -16,7 +19,7 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{list[0]}</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
@@ -59,15 +62,15 @@ export default function App() {
 
 function Home() {
   // myConsoleFunction(anything)
-  return <Page name="Home" />;
+  return <Page name={list[0]} />;
 }
 
 function About() {
-  return <Page aFunction={()=>myConsoleFunction()} name="About" />;
+  return <Page aFunction={()=>myConsoleFunction(list[1])} name="About" buttonName={list[1]+" Button"}/>;
 }
 
 function Users() {
-  return <Page name="Users" />;
+  return <Page name={list[2]} />;
 }
 
 function PersonalSide() {
@@ -78,10 +81,11 @@ function PublicSide() {
   return <Page name="Public Side" />;
 }
 // const anything = "Anything";
-// function myConsoleFunction(param){
-//   console.log(param)
-// }
-
-function myConsoleFunction(){
-  console.log("param")
+function myConsoleFunction(param){
+  console.log(param);
+  return <Welcome>Hello again.</Welcome>
 }
+
+// function myConsoleFunction(){
+//   console.log("param")
+// }

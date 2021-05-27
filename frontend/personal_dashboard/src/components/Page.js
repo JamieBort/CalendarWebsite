@@ -3,11 +3,11 @@ import React from 'react';
 function Page(props) {
   const greeting = 'Hello from Page Component!';
 
-  return <div>
-    <h1>{greeting}</h1>
-    <h2>{props.name}</h2>
+  return <div id="page_div">
+    <p>{greeting}</p>
+    <p>{props.name}</p>
 
-    <button onClick={props.aFunction}>A button</button>
+    <button onClick={props.aFunction}>{props.buttonName|| "Button"}</button>
 
     {/* <button onClick={()=>{console.log("yeah!");}}>A button</button> */}
   </div>;

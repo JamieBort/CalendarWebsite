@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+#holder{
+  background-color: #61dafb;
+}
+
+#page_div{
+  border: 3px cornsilk solid;
+  /* background-color:blueviolet; */
+  /* border-color: cornsilk; */
+}
