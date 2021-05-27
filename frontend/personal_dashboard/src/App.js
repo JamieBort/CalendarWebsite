@@ -1,40 +1,87 @@
-// import logo from './logo.svg';
-import './App.css';
-import Welcome  from "./components/Welcome";
-import NavButton from "./components/NavButton";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function buttonFunction(){
-  console.log("button is fired");
-}
+import Welcome from "./components/Welcome";
+import Page from "./components/Page";
 
-const secondButt= function secondButtonFunction(){
-  console.log("button is fired");
-}
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Welcome name="Jamie"/>
-      <NavButton abc="first page"/>
-      <button onClick={()=>{console.log("yeah!"); buttonFunction();}}>A button</button>
-      <NavButton abc="second page" bf={secondButt}/>
-      <NavButton abc="third page"/>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+            <li>
+              <Link to="/personalSide">Personal Side</Link>
+            </li>
+            <li>
+              <Link to="/publicSide">Public Side</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/personalSide">
+            <PersonalSide />
+          </Route>
+          <Route path="/publicSide">
+            <PublicSide />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+function Home() {
+  // myConsoleFunction(anything)
+  return <Page name="Home" />;
+}
+
+function About() {
+  return <Page aFunction={()=>myConsoleFunction()} name="About" />;
+}
+
+function Users() {
+  return <Page name="Users" />;
+}
+
+function PersonalSide() {
+  return <Page name="Personal Side" />;
+}
+
+function PublicSide() {
+  return <Page name="Public Side" />;
+}
+// const anything = "Anything";
+// function myConsoleFunction(param){
+//   console.log(param)
+// }
+
+function myConsoleFunction(){
+  console.log("param")
+}
