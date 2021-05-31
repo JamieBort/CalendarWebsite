@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Home(props) {
+function Home() {
   return (
     <ul>
       <li>

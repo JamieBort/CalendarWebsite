@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
+import Body from '../components/Body';
 import BasicFunction from '../components/BasicFunction';
 
 export default class about extends React.Component {
   render() {
     return <div>
-      <Header></Header>
       <p>Hello from inside about.js.</p>
-      <p>My NAME is {this.props.name}.</p>
-      <BasicFunction name="ooooo"></BasicFunction>
-      <BasicFunction name={this.props.name}></BasicFunction>
+      <Header name="about.js"></Header>
+      <Body secondName="abc" name="about.js"></Body>
+      {/* <Body name = "about.js"></Body> */}
     </div>;
   }
 }

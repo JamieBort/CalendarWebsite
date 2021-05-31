@@ -4,7 +4,7 @@ import Link from '../components/Link';
 export default class Header extends React.Component {
   render(props) {
     return <div>
-      <p>Hello from inside Header.</p>
+      <p>The Header inside of {this.props.name}</p>
     <Link name="link"></Link>
     </div>;
   }

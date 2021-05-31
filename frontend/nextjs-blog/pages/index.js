@@ -1,13 +1,15 @@
 import Head from 'next/head';
 import BasicFunction from '../components/BasicFunction';
 import Header from '../components/Header';
+import Body from '../components/Body';
 
 const name ="jim jam"
 
 export default function Home(props) {
   return (<div>
-    <Header name="header"></Header>
-    {/* <BasicFunction name="james"></BasicFunction> */}
+    <p>Hello from inside index.js.</p>
+    <Header name="index.js"></Header>
+    <Body secondName = "second name!" name="index.js"></Body>
   </div>
   )
 }
