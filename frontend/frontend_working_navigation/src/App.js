@@ -9,6 +9,7 @@ import './App.css';
 
 import Welcome from "./components/Welcome";
 import Page from "./components/Page";
+import APIComponent from "./components/APIComponent";
 
 const list = ["Home","About", "Users","Personal Side", "Professional Side"]
 
@@ -55,6 +56,8 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+      <h1>Hi</h1>
+      <APIComponent/>
       </div>
     </Router>
   );
