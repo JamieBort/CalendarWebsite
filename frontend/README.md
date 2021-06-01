@@ -14,4 +14,7 @@
 
     * `vanilla_javascript` trying to address the cors issue.
 
-* Second a attempt - going to follow [this tutorial](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website) up through `Pre-rendering and Data Fetching`.
+* Second attempt - going to follow [this tutorial](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website) up through `Pre-rendering and Data Fetching`.
+Stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson.
+
+* Third attempt - Copy of Second Attempt (where I stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson) in an attempt to adapt it to a fetch to an external api.
