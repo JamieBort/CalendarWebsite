@@ -18,3 +18,7 @@
 Stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson.
 
 * Third attempt - Copy of Second Attempt (where I stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson) in an attempt to adapt it to a fetch to an external api.
+**NOTE:** this didn't work for me either.
+I am going to table this `attempt03` directory and this `react_js` branch for now.
+And I will next attempt to make an call to the back end directly - assume the issues I am running into will not occur if I make a call to the back end directly...
+If that fails, I will work on a course that will walk me through the process of making a fetch using JavaScript and possibly a library and/or framework.
