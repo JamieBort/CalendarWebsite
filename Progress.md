@@ -2,7 +2,17 @@
 
 ## Status
 ### Currently
-* 
+Currently in the `java_setup` branch.
+
+Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
+
+Open up `./personal_projects/PersonalDashboard/` in vs code.
+
+Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
+
+Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` 
+
+and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`.
 
 ### Completed
 * Cleaning up the root directory in the master branch
@@ -13,7 +23,7 @@
 
 ## Next Steps
 1.
-    Clean up repo so that
+    ~~Clean up repo~~ so that
 
     a.
         ~~[Remove old branches](https://trello.com/c/5LzmS26g/1116-clean-up-github-repo-branches-for-personal-dashboard-repo)~~. Done
@@ -26,6 +36,12 @@
                 +-- React.js branch with Java back end and database. (react_js)
                 +-- React Native branch with Java back end and database. (react_native)
 
+    The front end on each branch will look identical or similar.
+
+    The functionality that it needs is to navigate between pages.
+    
+    And display info appropriate to that page.
+
     c.
         the **directories** are structured such that:
         
@@ -33,21 +49,31 @@
             +-- front end directory (frontend/)
             +-- back end directory (backend/)
 
-    The front end on each branch will will look identical or similar.
-    The functionality that it needs is to navigate between pages.
-    And display info appropriate to that page.
+2.
+    ~~Then set up the back end~~. Done
+    
+    Deleted both
+    * the `java_setup` (local) branch and
+    * the `remotes/origin/java_setup` remote branch.
 
-    Something basic just to make sure
+3.
+    Then set up the frontend. Something basic just to make sure
     * it's working as I want and need.
     * and to decide which to use
         * React.js
         * or React Native.
+        
+        The front end on each branch will look identical or similar.
 
-2.
+        The functionality that it needs is to navigate between pages.
+    
+        And display info appropriate to that page.
+
+4.
     Then work on getting it behind a password/some sort of security.
 
-3.
-    Then bring in the database and back end.
+5.
+    Then bring in the database.
 
 ## Tasks
 ### Not Done

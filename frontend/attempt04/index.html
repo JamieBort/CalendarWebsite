@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attempt04</title>
+</head>
+
+<body>
+    <button onclick={aFunction()}>Clear button</button>
+    <button onclick={fetchFunction()}>Fetch button</button>
+    <ul id="ul"></ul>
+    <script>
+        function aFunction() { console.clear() }
+        function fetchFunction() {
+            console.log("fetch!!!")
+            try {
+                fetch('http://localhost:8085/topics')
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        const ul = document.getElementById("ul");
+                        var li;
+                        for (let index = 0; index < data.length; index++) {
+                            li = document.createElement("li");
+                            li.innerHTML = data[index].id;
+                            ul.appendChild(li);
+                        }
+                        li.innerHTML = "hey";
+                        ul.appendChild(li);
+                    });
+            } catch (error) {
+                console.log("there was an error!!!")
+                console.log("the error: ", error)
+            }
+        }
+    </script>
+</body>
+
+</html>
