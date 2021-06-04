@@ -2,7 +2,7 @@
 
 ## Status
 ### Currently
-Currently in the `java_setup` branch.
+Currently in the `react_js` branch.
 
 Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
 
