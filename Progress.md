@@ -2,6 +2,10 @@
 
 ## Status
 ### Currently
+**NOTE:** 
+1. renamed `frontend` to `old_frontend`
+2. then moved `PersonalDashboard/old_frontend/attempt05/frontend/` to `PersonalDashboard/frontend/`
+
 * Run locally
     * Currently in the `react_js` branch.
     * Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
