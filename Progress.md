@@ -15,7 +15,7 @@
         +-- master/main
             +-- dev
                 +-- React.js branch with Java back end and database. (react_js)
-                    +-- branch to try to deploy to a service such as heroku
+                    +-- "host" branch (called host) for deploying and hosting both the front and back ends on a service such as heroku
                 +-- React Native branch with Java back end and database. (react_native) (doesn't exist yet)
 
 * **directories** are structured such that:
@@ -132,6 +132,7 @@
     * articles in pocket https://app.getpocket.com/tags/professional-development/all
     * https://trello.com/c/APC6cRAy/792-questions
     * **HOSTING/DEPLOYING**
+        * [Hosting](https://github.com/JamieBort/LearningDirectory/tree/master/Hosting) directory in the `LearningDirectory` repo.
         * host full stack on budge: https://www.youtube.com/watch?v=Kx_1NYYJS7Q
         * [What's the best way to deploy a Spring Boot + React project?](https://www.reddit.com/r/java/comments/iseggg/whats_the_best_way_to_deploy_a_spring_boot_react/) Reddit article.
         * **single war file**: https://medium.com/bb-tutorials-and-thoughts/how-to-build-react-with-java-backend-for-production-72f8634bb067
@@ -142,7 +143,7 @@
             * heroku
                 * in a **single war file**: https://medium.com/analytics-vidhya/how-to-package-your-react-app-with-spring-boot-41432be974bc
                 * react on heroku
-                    * https://www.youtube.com/watch?v=tA4Fl1dZgjc
+                    * [Create and Deploy React App on Heroku - Step by Step Guide](https://www.youtube.com/watch?v=tA4Fl1dZgjc) YouTube video.
                     * [How to deploy React app to Heroku?](https://www.geeksforgeeks.org/how-to-deploy-react-app-to-heroku/)
                 * ~~java~~ spring boot on heroku
                     * https://www.youtube.com/watch?v=k8z4UzV55ew
