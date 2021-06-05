@@ -1,7 +1,6 @@
 # Personal Dashboard
 
 ## What is this?/Who is it for?
-NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
 
 One website for things that have to do with my professional productivity and health. Including, but not limited to:
 1. GitHub calendar graph.
@@ -18,15 +17,6 @@ One website for things that have to do with my professional productivity and hea
 4. The Google Spreadsheet API for my gym spreadsheet. The name of the branch to develop this is 'GymSpreadsheet'.
 
 The first version, or starting point of this website is based on this repository [github-calendar](https://github.com/IonicaBizau/github-calendar).
-
-**The following are copied from the GitCalendar/github-calendar/example directory:**
-1. CalendarWebsite/css/
-2. CalendarWebsite/js/
-3. CalendarWebsite/index.html
-
-Once this is functional, remove the bookmarked pages [here](chrome://bookmarks/?id=1558).
-
-[The Trello Card associated with this project](https://trello.com/c/XdNG65rY/154-calendarwebsite).
 
 ## My View of this Project.
 I envision this site to be something I can navigate to from at least my computer. Eventually I will be able to navigate to it from other devices such as my phone. And maybe that will be it. Ideally I'll load the page without entering any credentials. But this may not be possible. At which point I will be able to view on the one page all the information I care to see.
@@ -75,3 +65,15 @@ To be edited later.
             |
             |
             +-- feature branch(es) (a branch for each feature to be developed.)
+
+NOTE: 20201019 renamed the repo https://github.com/JamieBort/CalendarWebsite to https://github.com/JamieBort/PersonalDashboard.
+
+
+NOTE: The following are copied from the GitCalendar/github-calendar/example directory:
+1. CalendarWebsite/css/
+2. CalendarWebsite/js/
+3. CalendarWebsite/index.html
+
+NOTE: Once this is functional, remove the bookmarked pages here: 
+
+    chrome://bookmarks/?id=1558
