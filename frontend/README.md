@@ -1,36 +1,70 @@
-# frontend
+# Getting Started with Create React App
 
-## Status
-Currently in the `java_setup` branch.
-Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
-Open up `./personal_projects/PersonalDashboard/` in vs code.
-Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
-Then the index.html can make a call to `http://localhost:8085/topics`.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-* First attempt - Running into `cors` issue with these.
+In the project directory, you can run:
 
-    * `frontend_working_navigation` is a react app with working navigation.
+### `yarn start`
 
-    * next up: getting front end server working.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-    * `nextjs-blog.js` spun up quickly. Used https://nextjs.org/learn/basics/create-nextjs-app/setup to do it.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-    * Next up: create a different app using nextjs. And then incorporate navigation.
+### `yarn test`
 
-    * Having trouble making api calls. running into cors issue.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    * `vanilla_javascript` trying to address the cors issue.
+### `yarn build`
 
-* Second attempt - going to follow [this tutorial](https://nextjs.org/learn/basics/create-nextjs-app?utm_source=next-site&utm_medium=nav-cta&utm_campaign=next-website) up through `Pre-rendering and Data Fetching`.
-Stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* Third attempt - Copy of Second Attempt (where I stopped off at the end of the [Pre-rendering and Data Fetching](https://nextjs.org/learn/basics/data-fetching/request-time) lesson) in an attempt to adapt it to a fetch to an external api.
-**NOTE:** this didn't work for me either.
-I am going to table this `attempt03` directory and this `react_js` branch for now.
-And I will next attempt to make an call to the back end directly - assume the issues I am running into will not occur if I make a call to the back end directly...
-If that fails, I will work on a course that will walk me through the process of making a fetch using JavaScript and possibly a library and/or framework.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-* Fourth attempt - works. See [Status](https://github.com/JamieBort/PersonalDashboard/tree/react_js/frontend#status) above.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* Fifth attempt - using this to create a React.js frontend.
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
