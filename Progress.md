@@ -10,15 +10,15 @@
     * Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html`
     * and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`.
 
-* **branches** are structured such that:    
+* **branches** structure:    
 
         +-- master/main
             +-- dev
                 +-- React.js branch with Java back end and database. (react_js)
-                    +-- "host" branch (called host) for deploying and hosting both the front and back ends on a service such as heroku
+                    +-- "host" branch (called host) for figuring out how to deploy and host both the front and back ends on a service such as heroku
                 +-- React Native branch with Java back end and database. (react_native) (doesn't exist yet)
 
-* **directories** are structured such that:
+* **directories** structure:
 
         +-- root directory (PersonalDashboard/)
             +-- front end directory (frontend/)
