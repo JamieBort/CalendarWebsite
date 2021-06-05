@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Fourth from './Fourth';
 
 export default function Header1() {
   return (
@@ -21,6 +22,9 @@ export default function Header1() {
             <li>
               <Link to="/users">Users</Link>
             </li>
+            <li>
+              <Link to="/fourth">Fourth</Link>
+            </li>
           </ul>
         </nav>
 
@@ -32,6 +36,9 @@ export default function Header1() {
           </Route>
           <Route path="/users">
             <Users />
+          </Route>
+          <Route path="/fourth">
+            <Fourth />
           </Route>
           <Route path="/">
             <Home />
@@ -53,3 +60,7 @@ function About() {
 function Users() {
   return <h2>Users</h2>;
 }
+
+// function Fourth() {
+//   return (<Fourth2/>);
+// }

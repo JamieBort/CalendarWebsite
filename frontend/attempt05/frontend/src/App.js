@@ -1,99 +1,77 @@
-import logo from './logo.svg';
 import './App.css';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Fourth from './components/Fourth';
 
-import Header1 from './components/Header1'
-import Header2 from './components/Header2'
-import Header3 from './components/Header3'
-
-function fetchFunction() {
-  console.log("fetch!!!")
-  try {
-      fetch('http://localhost:8085/topics')
-          .then(response => response.json())
-          .then(data => {
-              console.log(data);
-              const ul = document.getElementById("ul");
-              var li;
-              for (let index = 0; index < data.length; index++) {
-                  li = document.createElement("li");
-                  li.innerHTML = data[index].id;
-                  ul.appendChild(li);
-              }
-              li.innerHTML = "hey";
-              ul.appendChild(li);
-          });
-  } catch (error) {
-      console.log("there was an error!!!")
-      console.log("the error: ", error)
-  }
-}
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-    <Header3/>
-    <h2>Hello!</h2>
-      <button onClick={()=>fetchFunction()}>My Fetch Button</button>
-      <button onClick={()=>console.clear()}>My Clear Button</button>
-      <ul id="ul"></ul>
+    <button>Sign In/Sign Out</button>
+      <Router>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/users">Users</Link>
+              </li>
+              <li>
+                <Link to="/calendar">Calendar</Link>
+              </li>
+              <li>
+                <Link to="/fourth">Fourth</Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* A <Switch> looks through its children <Route>s and
+          renders the first one that matches the current URL. */}
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/users">
+              <Users />
+            </Route>
+            <Route path="/calendar">
+              <Calendar />
+            </Route>
+            <Route path="/fourth">
+              <Fourth />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
+
+  function Home() {
+    return <h2>Home Page</h2>;
+  }
+
+  function About() {
+    return <h2>About</h2>;
+  }
+
+  function Users() {
+    return <h2>Users</h2>;
+  }
+
+  function Calendar() {
+    return <h2>Calendar</h2>;
+  }
+
 }
-
-export default App;
-
-// ==========================================
-
-// export default function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <nav>
-//           <ul>
-//             <li>
-//               <Link to="/">Home</Link>
-//             </li>
-//             <li>
-//               <Link to="/about">About</Link>
-//             </li>
-//             <li>
-//               <Link to="/users">Users</Link>
-//             </li>
-//           </ul>
-//         </nav>
-
-//         {/* A <Switch> looks through its children <Route>s and
-//             renders the first one that matches the current URL. */}
-//         <Switch>
-//           <Route path="/about">
-//             <About />
-//           </Route>
-//           <Route path="/users">
-//             <Users />
-//           </Route>
-//           <Route path="/">
-//             <Home />
-//           </Route>
-//         </Switch>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// function Home() {
-//   return <h2>Home</h2>;
-// }
-
-// function About() {
-//   return <h2>About</h2>;
-// }
-
-// function Users() {
-//   return <h2>Users</h2>;
-// }
