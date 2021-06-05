@@ -2,21 +2,31 @@
 
 ## Status
 ### Currently
-Currently in the `react_js` branch.
+* Run locally
+    * Currently in the `react_js` branch.
+    * Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
+    * Open up `./personal_projects/PersonalDashboard/` in vs code.
+    * Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
+    * Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html`
+    * and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`.
 
-Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
+* **branches** are structured such that:    
 
-Open up `./personal_projects/PersonalDashboard/` in vs code.
+        +-- master/main
+            +-- dev
+                +-- React.js branch with Java back end and database. (react_js)
+                    +-- branch to try to deploy to a service such as heroku
+                +-- React Native branch with Java back end and database. (react_native) (doesn't exist yet)
 
-Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
+* **directories** are structured such that:
 
-Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` 
-
-and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`.
+        +-- root directory (PersonalDashboard/)
+            +-- front end directory (frontend/)
+            +-- back end directory (backend/)
 
 ### Completed
 * Cleaning up the root directory in the master branch
-    [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch)
+    [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch) Trello card.
 * Removing old branches.
 * revamping the readme.md file.
 * revamping the master Trello card
