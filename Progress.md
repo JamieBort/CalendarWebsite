@@ -5,7 +5,8 @@
 **NOTE:** 
 1. renamed `frontend` to `old_frontend`
 2. then moved `PersonalDashboard/old_frontend/attempt05/frontend/` to `PersonalDashboard/frontend/`
-3. Lastly, created a `host` branch (off of the `react_js` branch). Currently working in the `host` branch. **See** `~/PersonalDashboard/hosting_progress/attempt01.md` for **current status**.
+3. Lastly, created a `host` branch (off of the `react_js` branch). Currently working in the `host` branch. 
+**See** [attempt01.md](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/attempt01.md) for **current status**.
 
 Just ran program (see Run locally below) and it's working.
 
