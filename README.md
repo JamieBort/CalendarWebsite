@@ -27,25 +27,44 @@ Description:include in website:
 3. Last physical
 4. a1c
 
-## Explanation of files and directories
-In order as they appear in the repo.
 
+
+
+## Directories and Files
+Explanation of files and directories
+In order as they appear in the repo.
 **Note to self** - refer to https://github.com/JamieBort/LearningDirectory/blob/master/README.md#explanation-of-other-files-and-directories-in-this-repository for consistent wording.
 
-#### old/ directory
+### Directories
+
+#### .vscode
+
+#### backend
+
+#### frontend
+
+#### hosting_progress
+
+#### old/
 To be filled in.
 
-#### README_Files_From_Old_Branches/ directory
+#### old_frontend/
+
+#### README_Files_From_Old_Branches/
 To be filled in.
 
-#### .gitignore file
+
+### Files
+Explanation of other files and directories in this repository.
+
+#### .gitignore
 To be filled in.
 
-#### Progress.md file
+#### Progress.md
 * For my personal organization.
 * Contains `Next Steps`,`Status`, `Tasks`, and `Associated Links` sections.
 
-## Explanation of other files and directories in this repository.
+#### README.md
 
 Licensing Info
 To be edited later.
