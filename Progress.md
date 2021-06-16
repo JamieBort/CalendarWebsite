@@ -123,6 +123,7 @@ Just ran program (see Run locally below) and it's working.
 
 ## Resources
 * https://trello.com/c/NFRSx1Q6/171-api-professional-development
+* (maybe) https://github.com/JamieBort/ReactJavaFrontBack
 
 ## Content
 * https://trello.com/c/BBsYOyDg/1114-content-for-the-personal-dashboard
