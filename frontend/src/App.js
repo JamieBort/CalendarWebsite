@@ -59,7 +59,25 @@ export default function App() {
   );
 
   function Home() {
-    return <h2>Home Page</h2>;
+    const div_style= {
+      display: "inline-block",
+      border: "1px green solid",
+      width: "49%"};
+    // return <h2>Home Page</h2>;
+    return <div>
+    <h2>Home Page</h2>
+
+    <h3>Landing Page Brainstorm</h3>
+    <div style={div_style}>
+        <button>Public Side</button>
+        <p>This will bring people to the publicly viewable content.</p>
+        <p>Alternatively this button will not exist. And the content will already be on this page.</p>
+    </div>
+    <div style={div_style}>
+        <button>Personal Side</button>
+        <p>Log in to see personal content</p>
+    </div>
+    </div>
   }
 
   function About() {
