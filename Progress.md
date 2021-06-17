@@ -8,15 +8,31 @@
 3. Lastly, created a `host` branch (off of the `react_js` branch). Currently working in the `host` branch. 
 **See** [attempt01.md](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/attempt01.md) for **current status**.
 
-Just ran program (see Run locally below) and it's working.
+Just ran program (see the Run Locally bullet below) and it's working.
 
-* Run locally
-    * Currently in the `react_js` branch.
-    * Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser.
-    * Open up `./personal_projects/PersonalDashboard/` in vs code.
-    * Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code.
-    * Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html`
-    * and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`.
+* Run Locally
+    * Currently in the `host` branch.
+    * start the back end server
+        * either
+            * navigate to the `./backend/src/main/java/personal_dashboard/backend/BackendApplication.java` file.
+                * either
+                    * select the `Run` button that is just above the main() method
+                    * or select the `Run` drop-down menu at the top of the window and then select `Run Without Debugging`.
+            * or run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in 
+                * either
+                    * vs code.
+                    * or Terminal
+    * start the back end server
+        * In Terminal 
+            * navigate to `./personal_projects/PersonalDashboard/frontend/`
+            * run `npm start`.
+    * in the browser navigate to `http://localhost:3000/`.
+    
+    * ~~Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser~~.
+    * ~~Open up `./personal_projects/PersonalDashboard/` in vs code~~.
+    * ~~Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code~~.
+    * ~~Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html`~~
+    * ~~and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`~~.
 
 * **branches** structure:    
 
