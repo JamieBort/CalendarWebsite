@@ -1,16 +1,13 @@
 # Progress
 
 ## Status
-### Currently
-**NOTE:** 
-1. renamed `frontend` to `old_frontend`
-2. then moved `PersonalDashboard/old_frontend/attempt05/frontend/` to `PersonalDashboard/frontend/`
-3. Lastly, created a `host` branch (off of the `react_js` branch). Currently working in the `host` branch. 
-**See** [attempt01.md](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/attempt01.md) for **current status**.
+Working in the `host` branch. 
+Attempting to get the frontend and backend hosted somewhere. Starting with Heroku.
+**See** the [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/README.md#status) section of the `README.md` file of the `hosting_progress` directory for **current status**.
 
 Just ran program (see the Run Locally bullet below) and it's working.
 
-#### To run the site
+## To run the site
 * Run Locally
     * Currently in the `host` branch.
     * start the back end server
@@ -33,20 +30,20 @@ Just ran program (see the Run Locally bullet below) and it's working.
 * Run via ______
     * not there yet.
 
-#### Branch Structure
+## Branch Structure
 
         +-- master/main
             +-- dev
                 +-- React.js branch with Java back end and database. (react_js)
                     +-- "host" branch (called host) for figuring out how to deploy and host both the front and back ends on a service such as heroku
                 +-- React Native branch with Java back end and database. (react_native) (doesn't exist yet)
-#### Directory Structure
+## Directory Structure
 
         +-- root directory (PersonalDashboard/)
             +-- front end directory (frontend/)
             +-- back end directory (backend/)
 
-### Completed
+## Completed
 * Cleaning up the root directory in the master branch
     [Clean up the root directory in the master branch](https://trello.com/c/eoj2x4Zs/1117-clean-up-the-root-directory-in-the-master-branch) Trello card.
 * Removing old branches.
