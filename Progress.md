@@ -10,6 +10,7 @@
 
 Just ran program (see the Run Locally bullet below) and it's working.
 
+#### To run the site
 * Run Locally
     * Currently in the `host` branch.
     * start the back end server
@@ -27,16 +28,19 @@ Just ran program (see the Run Locally bullet below) and it's working.
             * navigate to `./personal_projects/PersonalDashboard/frontend/`
             * run `npm start`.
     * in the browser navigate to `http://localhost:3000/`.
+* Run via Heroku
+    * working on this. See `Hosting Progress` [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/README.md#status).
+* Run via ______
+    * not there yet.
 
-* **branches** structure:    
+#### Branch Structure
 
         +-- master/main
             +-- dev
                 +-- React.js branch with Java back end and database. (react_js)
                     +-- "host" branch (called host) for figuring out how to deploy and host both the front and back ends on a service such as heroku
                 +-- React Native branch with Java back end and database. (react_native) (doesn't exist yet)
-
-* **directories** structure:
+#### Directory Structure
 
         +-- root directory (PersonalDashboard/)
             +-- front end directory (frontend/)
