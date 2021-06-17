@@ -27,12 +27,6 @@ Just ran program (see the Run Locally bullet below) and it's working.
             * navigate to `./personal_projects/PersonalDashboard/frontend/`
             * run `npm start`.
     * in the browser navigate to `http://localhost:3000/`.
-    
-    * ~~Navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html` in the browser~~.
-    * ~~Open up `./personal_projects/PersonalDashboard/` in vs code~~.
-    * ~~Run `./personal_projects/PersonalDashboard/backend/src/main/java/personal_dashboard/backend/BackendApplication.java` in vs code~~.
-    * ~~Then in the browser, navigate to `file:///Users/jamiebort/Documents/DevFiles/personal_projects/PersonalDashboard/frontend/attempt04/index.html`~~
-    * ~~and select the `Fetch` button to log to the console a call to `http://localhost:8085/topics`~~.
 
 * **branches** structure:    
 
