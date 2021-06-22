@@ -29,6 +29,9 @@ export default function App() {
                 <Link to="/calendar">Calendar</Link>
               </li>
               <li>
+                <Link to="/gym">Gym</Link>
+              </li>
+              <li>
                 <Link to="/fourth">Fourth</Link>
               </li>
             </ul>
@@ -45,6 +48,9 @@ export default function App() {
             </Route>
             <Route path="/calendar">
               <Calendar />
+            </Route>
+            <Route path="/gym">
+              <Gym />
             </Route>
             <Route path="/fourth">
               <Fourth />
@@ -90,6 +96,10 @@ export default function App() {
 
   function Calendar() {
     return <h2>Calendar</h2>;
+  }
+
+  function Gym() {
+    return <h2>Gym</h2>;
   }
 
 }
