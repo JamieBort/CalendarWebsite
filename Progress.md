@@ -27,6 +27,36 @@ Just ran program (see the Run Locally bullet below) and it's working.
     * in the browser navigate to `http://localhost:3000/`.
 * Run via Heroku
     * working on this. See `Hosting Progress` [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/README.md#status).
+        * **This worked**. 
+        
+            See [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/attempt03.md#status) from `hosting_progress/attempt03.md`. 
+            
+            Also below:
+
+                In `~/Documents/DevFiles/personal_projects/PersonalDashboard/frontend`
+                run `npm install`
+                run `npm audit fix` (if necessary)
+                run `cd ~/Documents/DevFiles/personal_projects/PersonalDashboard/`
+                run `git init` (not necessary)
+                run `cd frontend/`
+                run `heroku create personal-dash-front-react --buildpack https://github.com/mars/create-react-app-buildpack.git`
+                run `cd ..`
+                run `git add .`
+                run `git commit -m "First commit pushing to heroku. Using 'git subtree push --prefix frontend heroku master'"`
+                run `heroku git:remote -a personal-dash-front-react`
+                ~~run `git push heroku master`~~
+                git subtree push --prefix frontend heroku <branch>:master
+                run `git subtree push --prefix frontend heroku master`
+
+
+
+
+
+
+
+
+
+
 * Run via ______
     * not there yet.
 

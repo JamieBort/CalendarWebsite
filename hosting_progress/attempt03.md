@@ -30,18 +30,9 @@ run `git commit -m "First commit. Version 4. Using 'git subtree push --prefix fr
 
 run `heroku git:remote -a version4-personal-dash-front`
 
-
-
 ~~run `git push heroku master`~~
 git subtree push --prefix frontend heroku <branch>:master
 run `git subtree push --prefix frontend heroku master`
-response:
->git push using:  heroku master
-fatal: 'heroku' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
->Please make sure you have the correct access rights
-and the repository exists.
 
 
 ---
