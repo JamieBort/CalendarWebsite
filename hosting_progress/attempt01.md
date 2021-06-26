@@ -17,7 +17,7 @@ NOTE: I attempted to learn more about the Heroku pipeline process. Hence this: h
 
 ## Status
 
-`~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/` currently contains
+`~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/` currently contains
 * `personal_dashboard_frontend_practice1/`, 
 * `personal_dashboard_frontend_practice2/`, and
 * `personal_dashboard_frontend_practice_base/`
@@ -73,8 +73,8 @@ heroku open
 ```
 
 When I run `git push heroku master` 
-* in this `~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2` directory 
-* and again in this `/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2/frontend/` directory
+* in this `~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2` directory 
+* and again in this `/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2/frontend/` directory
 
 I receive this response
 ```

@@ -17,10 +17,10 @@ NOTE: I attempted to learn more about the Heroku pipeline process. Hence this: h
 
 ## Status
 
-In `~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice3/frontend`
+In `~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice3/frontend`
 run `npm install`
 run `npm audit fix`
-run `cd ~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice3/`
+run `cd ~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice3/`
 run `git init`
 run `heroku create version3-personal-dash-front --buildpack https://github.com/mars/create-react-app-buildpack.git`
 run `git add .`
@@ -39,7 +39,7 @@ and the repository exists.
 
 ---
 
-`~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/` currently contains
+`~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/` currently contains
 * `personal_dashboard_frontend_practice1/`, 
 * `personal_dashboard_frontend_practice2/`, and
 * `personal_dashboard_frontend_practice_base/`
@@ -95,8 +95,8 @@ heroku open
 ```
 
 When I run `git push heroku master` 
-* in this `~/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2` directory 
-* and again in this `/Documents/DevFiles/personal_projects/personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2/frontend/` directory
+* in this `~/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2` directory 
+* and again in this `/Documents/DevFiles/personal_projects/old_personal_dashboard_frontend_practice/personal_dashboard_frontend_practice2/frontend/` directory
 
 I receive this response
 ```
