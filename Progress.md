@@ -1,5 +1,9 @@
 # Progress
 
+https://stackoverflow.com/questions/39197334/automated-heroku-deploy-from-subfolder
+
+https://stackoverflow.com/questions/59157102/could-not-find-a-pom-xml-file-please-check-that-it-exists-and-is-committed-to-g
+
 ## Status
 Working in the `host` branch. 
 
