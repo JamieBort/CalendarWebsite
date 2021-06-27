@@ -1,7 +1,8 @@
 function fetchFunction() {
-    console.log("fetch!!!")
+    console.log("fetch from front end!!!")
     try {
-        fetch('http://localhost:8085/topics')
+        // fetch('http://localhost:8085/topics')
+        fetch('https://ancient-ocean-17605.herokuapp.com/')
             .then(response => response.json())
             .then(data => {
                 console.log(data);

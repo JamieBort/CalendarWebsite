@@ -2,10 +2,18 @@
 
 ## Status
 Working in the `host` branch. 
-Attempting to get the frontend and backend hosted somewhere. Starting with Heroku.
-**See** the [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/README.md#status) section of the `README.md` file of the `hosting_progress` directory for **current status**.
 
 Just ran program (see the Run Locally bullet below) and it's working.
+
+Attempting to get the frontend and backend hosted somewhere. Starting with Heroku.
+~~**See** the [Status](https://github.com/JamieBort/PersonalDashboard/blob/host/hosting_progress/README.md#status) section of the `README.md` file of the `hosting_progress` directory for **current status**.~~
+
+The frontend (react) is working on heroku: https://personal-dash-front-react.herokuapp.com/
+
+and https://dashboard.heroku.com/apps/personal-dash-front-react
+
+Now about to attempt to get the back end working on heroku...
+To that end, see: `~/Documents/DevFiles/personal_projects/personal_dashboard_backend_heroku/`
 
 ## To run the site
 * Run Locally
